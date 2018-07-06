@@ -1,0 +1,321 @@
+
+
+/* ================================ FULLSCREEN NAVBAR =================================  */
+
+
+body {
+  background: -webkit-gradient(linear, 0 6124, 0 0, from(rgba(0, 0, 0, 0)), from(#010103), color-stop(0.454, #07172c), color-stop(0.454, #07162d), color-stop(0.454, #07172c), color-stop(0.492, #081930), color-stop(0.492, #071831), color-stop(0.517, #081a33), color-stop(0.517, #071934), color-stop(0.518, #071934), color-stop(0.518, #081a33), color-stop(0.519, #081a33), color-stop(0.519, #081934), color-stop(0.519, #081934), color-stop(0.519, #081a33), color-stop(0.55, #081c36), color-stop(0.55, #081b37), color-stop(0.56, #081c37), color-stop(0.56, #081b38), color-stop(0.561, #081b38), color-stop(0.561, #081c37), color-stop(0.571, #081d38), color-stop(0.571, #081c39), color-stop(0.573, #081d38), color-stop(0.575, #081d38), color-stop(0.575, #091c39), color-stop(0.577, #081d38), color-stop(0.577, #081c39), color-stop(0.597, #091e3a), color-stop(0.597, #091d3b), color-stop(0.62, #081f3d), color-stop(0.647, #091f3f), color-stop(0.647, #09203e), color-stop(0.661, #09213f), color-stop(0.661, #092040), color-stop(0.67, #092041), color-stop(0.67, #0a2140), color-stop(0.678, #0a2140), color-stop(0.678, #0a2041), color-stop(0.721, #0a2244), color-stop(0.721, #0a2343), color-stop(0.733, #0a2244), color-stop(0.738, #0a2245), color-stop(0.738, #0a2344), color-stop(0.74, #092344), color-stop(0.74, #0a2245), color-stop(0.744, #0a2344), color-stop(0.744, #0a2245));
+  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0), #010103 0%, #07172c 45.4%, #07162d, #07172c 45.4%, #081930 49.2%, #071831 49.2%, #081a33 51.7%, #071934 51.7%, #071934 51.8%, #081a33 51.8%, #081a33 51.9%, #081934, #081934, #081a33 51.9%, #081c36 55%, #081b37 55%, #081c37 56%, #081b38 56%, #081b38 56.1%, #081c37 56.1%, #081d38 57.1%, #081c39 57.1%, #081d38, #081d38 57.5%, #091c39 57.5%, #081d38 57.7%, #081c39 57.7%, #091e3a 59.7%, #091d3b 59.7%, #081f3d 62%, #091f3f 64.7%, #09203e 64.7%, #09213f 66.1%, #092040 66.1%, #092041 67%, #0a2140 67%, #0a2140 67.8%, #0a2041 67.8%, #0a2244 72.1%, #0a2343 72.1%, #0a2244 73.3%, #0a2245 73.8%, #0a2344 73.8%, #092344 74%, #0a2245 74%, #0a2344 74.4%, #0a2245 74.4%);
+  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0), #010103 0%, #07172c 45.4%, #07162d, #07172c 45.4%, #081930 49.2%, #071831 49.2%, #081a33 51.7%, #071934 51.7%, #071934 51.8%, #081a33 51.8%, #081a33 51.9%, #081934, #081934, #081a33 51.9%, #081c36 55%, #081b37 55%, #081c37 56%, #081b38 56%, #081b38 56.1%, #081c37 56.1%, #081d38 57.1%, #081c39 57.1%, #081d38, #081d38 57.5%, #091c39 57.5%, #081d38 57.7%, #081c39 57.7%, #091e3a 59.7%, #091d3b 59.7%, #081f3d 62%, #091f3f 64.7%, #09203e 64.7%, #09213f 66.1%, #092040 66.1%, #092041 67%, #0a2140 67%, #0a2140 67.8%, #0a2041 67.8%, #0a2244 72.1%, #0a2343 72.1%, #0a2244 73.3%, #0a2245 73.8%, #0a2344 73.8%, #092344 74%, #0a2245 74%, #0a2344 74.4%, #0a2245 74.4%);
+  background: -o-linear-gradient(90deg, rgba(0, 0, 0, 0), #010103 0%, #07172c 45.4%, #07162d, #07172c 45.4%, #081930 49.2%, #071831 49.2%, #081a33 51.7%, #071934 51.7%, #071934 51.8%, #081a33 51.8%, #081a33 51.9%, #081934, #081934, #081a33 51.9%, #081c36 55%, #081b37 55%, #081c37 56%, #081b38 56%, #081b38 56.1%, #081c37 56.1%, #081d38 57.1%, #081c39 57.1%, #081d38, #081d38 57.5%, #091c39 57.5%, #081d38 57.7%, #081c39 57.7%, #091e3a 59.7%, #091d3b 59.7%, #081f3d 62%, #091f3f 64.7%, #09203e 64.7%, #09213f 66.1%, #092040 66.1%, #092041 67%, #0a2140 67%, #0a2140 67.8%, #0a2041 67.8%, #0a2244 72.1%, #0a2343 72.1%, #0a2244 73.3%, #0a2245 73.8%, #0a2344 73.8%, #092344 74%, #0a2245 74%, #0a2344 74.4%, #0a2245 74.4%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), #010103 0%, #07172c 45.4%, #07162d, #07172c 45.4%, #081930 49.2%, #071831 49.2%, #081a33 51.7%, #071934 51.7%, #071934 51.8%, #081a33 51.8%, #081a33 51.9%, #081934, #081934, #081a33 51.9%, #081c36 55%, #081b37 55%, #081c37 56%, #081b38 56%, #081b38 56.1%, #081c37 56.1%, #081d38 57.1%, #081c39 57.1%, #081d38, #081d38 57.5%, #091c39 57.5%, #081d38 57.7%, #081c39 57.7%, #091e3a 59.7%, #091d3b 59.7%, #081f3d 62%, #091f3f 64.7%, #09203e 64.7%, #09213f 66.1%, #092040 66.1%, #092041 67%, #0a2140 67%, #0a2140 67.8%, #0a2041 67.8%, #0a2244 72.1%, #0a2343 72.1%, #0a2244 73.3%, #0a2245 73.8%, #0a2344 73.8%, #092344 74%, #0a2245 74%, #0a2344 74.4%, #0a2245 74.4%);
+
+  font-family: 'Montserrat', sans-serif;
+
+  overflow-x: hidden;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(10,35,69);
+    background-color: rgba(10,35,69, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/* ================================ FULLSCREEN NAVBAR =================================  */
+
+/* section 1 here */
+.section_1{
+
+  font-family: 'Montserrat', sans-serif;
+}
+.threeline_nav_icon{
+  padding: 3%;
+  color: #285A9E;
+}
+.logo{
+  padding: 2%;
+}
+
+/* section 2 here */
+.section_2{
+  line-height: 5px;
+
+  color:#fff;
+  padding: 6%;
+  font-family: 'Montserrat', sans-serif;
+}
+.light_blue{
+  color: #2A5DA3;
+}
+.section_2_p{
+  color : #2A5DA3;
+  line-height: 20px;
+}
+button.btn_explore_template{
+  color:#fff;
+  background-color: inherit;
+  border: 2px solid #153B6D;
+  border-radius: 80px;
+  padding: 1%;
+}
+
+/* Section 3 code starts */
+
+#section_3{
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section_3{
+background: url('../images/waves.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+  padding: 6%;
+}
+.left_Warstwa_3, .middle_Warstwa_2, .right_Warstwa_4, .shadows{
+  box-shadow: 1px 2px 15px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.right_Warstwa_4{
+  position: absolute;
+  left: 13%;
+}
+
+.middle_Warstwa_2{
+    margin-top: -35px;
+  }
+  .small_phones{
+
+    display: block;
+    margin: 10px auto;
+    box-shadow: 1px 2px 15px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+/* section 4 code starts */
+
+.section_4{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+button.btn_view_more{
+  color:#fff;
+  background-color: inherit;
+  border: 2px solid #153B6D;
+  border-radius: 80px;
+  padding: 1.5%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+
+
+
+/* section 5 code starts  */
+.section_5{
+  padding: 4%;
+  color: #fff;
+}
+
+.sec5_p{
+  color: #66778E;
+  font-size: 1em;
+}
+.Speaker, .Activity, .CD, .small_Headphones, .power_icon{
+  width: 10%;
+  height: 10%;
+}
+.Phone{
+  position: relative;
+  width: 158%;
+  height: 128%;
+  right: 30%;
+}
+.section_5_h1{
+  font-family: 'Montserrat', sans-serif;
+  padding: 6%;
+  padding-top: 0%;
+}
+
+/*section 6 starts here*/
+.section_6{
+color: #fff;
+padding: 7%;
+padding-left: 0%;
+padding-right: 0%;
+}
+
+.nopad{
+  padding: 0% !important;
+}
+
+/*.left_padding{*/
+/*  padding-left: 3% !important;*/
+/*}*/
+
+
+
+
+/* Section 7 code starts here */
+#section_7{
+    background-image: url('../images/hand_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 6%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section_7_h3, .section_7_span{
+  color: #66778E;
+  line-height: 40px;
+}
+
+.carousel-indicators{
+  position: relative;
+  top: 100%;
+}
+.pic{
+  position: relative;
+  left: 58%;
+}
+.li_color{
+  color: #335A95 !important;
+}
+
+
+/* section 8 code starts here */
+.section_8 {
+  padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.download_bg{
+
+  display: block;
+  margin:0 auto;
+
+}
+.section_8_h3{
+  color: #fff;
+  padding: 1%;
+}
+
+.section_8_p{
+  color:#67686A;
+  line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download_row{
+  padding: 2%;
+  margin-top: 30px;
+}
+.btn_download{
+  color: #fff;
+  background-color: inherit;
+  padding: 1.5%;
+  padding-top: 1%;
+  padding-bottom:1%;
+  border: 2px solid #143969;
+  border-radius: 80px;
+  text-decoration: none;
+}
+.btn_download:hover{
+  text-decoration: none;
+}
+.btn_download:visited{
+  color: #fff;
+}
+
+
+/* section 9 starts here */
+.footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid #0d1524;
+}
+
+.footer a{
+  color: #14396a;
+  text-decoration: none;
+  padding:1%;
+}
+.footer a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.footer span{
+  color: #14396a;
+}
+
+
+
+
+
+/*media query section*/
+
+@media (min-width:768px){
+  .pic_sm{
+    position: relative;
+    left:48%;
+  }
+}
+@media (max-width:1199px) {
+  .big_phones{
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .ranged_display{
+    display: none;
+  }
+}
+@media (min-width: 1199px){
+  .ranged_display{
+    display: none;
+  }
+}
